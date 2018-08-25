@@ -1,0 +1,69 @@
+@import "animate";
+$icon-size:34px;
+
+$font-family-default: 'Abhaya Libre', serif;
+$font-family-heading: 'Bad Script', cursive;
+
+
+body {
+  font-size: 1.5em;
+  margin: 0;
+  font-family: $font-family-default;
+  color: #33;
+  line-height: 1.5;
+}
+
+section {
+  padding: 5% 10%;
+}
+
+h1,h2,h3,h4 {
+  font-family: $font-family-heading;
+  color: #281135;
+}
+
+h2 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.nav {
+  position: fixed;
+  top:0;
+  height: 74px;
+  left:0;
+  right: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+.nav__link {
+  cursor: pointer;
+  padding: 20px;
+}
+.nav__icon svg{
+  width:$icon-size;
+  height:$icon-size;
+  fill: #f7f0f0;
+
+}
+.hero {
+  height: 100vh;
+  background-image: url("/static/images/hero.jpg");
+  background-color: #040405;
+  display: flex;
+
+  .hero-inner {
+  background-color: rgba(0,0,0,.65);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 33%;
+    }
+  }
+
+}
