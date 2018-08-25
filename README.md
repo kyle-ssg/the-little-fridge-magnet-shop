@@ -20,6 +20,16 @@ You'll need nodemon to run in development mode
 
 This will bundle and bundle static files to /build which can be deployed run with any server setup.
 
-**/webpack**
 
-Webpack configs are used in our package.json scripts to either bundle our app for development or deploy minified/cachebusted files to **/build** to be used in production.
+## Editing content
+
+Rather than editing a load of html for the collections / gallery images, you can manage collections from 
+```
+cms.js
+```
+
+The content in there is pretty clear on how it works.
+
+
+This will bundle and bundle static files to /build which can be deployed run with any server setup.
+
