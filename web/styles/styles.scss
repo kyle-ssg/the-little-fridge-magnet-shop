@@ -13,6 +13,8 @@ body {
 }
 
 section {
+  //border-top: 2px dashed $brand-primary;
+
   padding: 5% 10%;
   p {
     margin-right: 5em;
@@ -22,11 +24,16 @@ section {
   }
 }
 
+
 .product__image {
   max-width: 100%;
   max-height: 50vh;
 }
 
+.product__title {
+  color: #555 !important;
+  font-size: 1.5em;
+}
 .product__image--large {
   max-width: 100%;
 }
