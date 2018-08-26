@@ -27,7 +27,11 @@ $(document).ready(() => {
 
 
                 var resize = ()=>{
-                    $grid.height($el.find(".js-collection-main-image").height());
+                    if (document.body.clientWidth >768) {
+                        $grid.height($el.find(".js-collection-main-image").height());
+                    } else {
+                        $grid.removeAttr("style")
+                    }
                 };
 
 

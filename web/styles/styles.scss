@@ -3,7 +3,6 @@
 @import "components/index";
 @import "project/index";
 
-
 body {
   font-size: $font-size-defalt;
   margin: 0;
@@ -24,7 +23,6 @@ section {
   }
 }
 
-
 .product__image {
   max-width: 100%;
   max-height: 50vh;
@@ -34,6 +32,7 @@ section {
   color: #000 !important;
   font-size: 1.5em;
 }
+
 .product__image--large {
   max-width: 100%;
 }
@@ -53,11 +52,11 @@ section {
   }
 }
 
-
 .product__grid {
   max-height: 100%;
   overflow-y: auto;
 }
+
 h1, h2, h3, h4 {
   font-family: $font-family-heading;
   color: $brand-primary !important;
@@ -134,7 +133,7 @@ nav.nav__past-hero {
   }
   .hero-inner {
     background-color: rgba(0, 0, 0, .65);
-    flex:1;
+    flex: 1;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -143,6 +142,30 @@ nav.nav__past-hero {
       width: 33%;
     }
   }
-
 }
 
+
+@media only screen and (max-width: 768px) {
+  .col-sm-auto {
+    padding: 0 !important;
+  }
+  .hero {
+    height: 25vh;
+  }
+  section p {
+    margin-right: 0;
+  }
+  .product__grid {
+    margin-top: 10px;
+  }
+  .product__grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    .grid-item img {
+      height: 100px;
+      width: auto;
+      overflow-y: auto;
+    }
+  }
+}
