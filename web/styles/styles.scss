@@ -27,6 +27,30 @@ section {
   max-height: 50vh;
 }
 
+.product__image--large {
+  max-width: 100%;
+}
+
+.grid {
+  background: #DDD;
+  overflow: hidden;
+}
+
+.grid-item {
+  float: left;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+
+.product__grid {
+  max-height: 100%;
+  overflow-y: auto;
+}
 h1, h2, h3, h4 {
   font-family: $font-family-heading;
   color: $brand-primary !important;
@@ -40,8 +64,11 @@ h2 {
 
 .nav {
   position: fixed;
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-color: transparent;
+  border-style: solid;
   top: 0;
-  height: 74px;
   left: 0;
   right: 0;
   display: flex;
@@ -49,11 +76,14 @@ h2 {
   justify-content: flex-end;
   align-items: center;
   flex-direction: row;
+  z-index: 2;
+  padding: 10px 0;
 }
 
 .nav__link {
   cursor: pointer;
-  padding: 20px;
+  height: 34px;
+  padding-right: 20px;
   &:hover {
     .nav__icon svg {
       fill: $hover-light !important;
@@ -62,6 +92,8 @@ h2 {
 }
 
 nav.nav__past-hero {
+  background-color: white;
+  border-color: #ccc;
   .nav__link {
 
     .nav__icon svg {
@@ -106,3 +138,4 @@ nav.nav__past-hero {
   }
 
 }
+

@@ -1,3 +1,3 @@
 import './styles/styles.scss';
-import './scripts/masonry';
-import './scripts/nav-scroll';
+import './scripts/lfm-nav-scroll';
+import './scripts/lfm-collections';
