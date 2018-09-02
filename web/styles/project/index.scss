@@ -20,6 +20,7 @@ label {
   text-transform: uppercase;
   color: $body-color;
 }
+
 .form-control {
   outline: none !important;
   background-color: transparent;
@@ -34,9 +35,15 @@ label {
   border-bottom-width: 1px;
   font-size: 1em;
   color: $body-color;
+  font-weight: 200;
   &textarea {
     border: 1px solid #ccc;
   }
+}
+
+select.form-control {
+  border: 1px solid #ccc;
+
 }
 
 .btn--form {

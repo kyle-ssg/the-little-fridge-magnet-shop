@@ -1,4 +1,9 @@
 module.exports = {
+    typeOfEnquiries: [
+        "General",
+        "I want to make a purchase",
+        "Wholesale"
+    ],
     collections: [
         {
             mainImage: {

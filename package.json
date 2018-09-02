@@ -12,12 +12,11 @@
   },
   "dependencies": {
     "bootstrap": "4.0.0-alpha.6",
-    "isotope-layout": "^3.0.6",
     "promise-polyfill": "^7.1.2",
-    "ssg-node-express": "4.16.3",
-    "webpack-plugin-replace": "^1.1.1"
+    "ssg-node-express": "4.16.3"
   },
   "devDependencies": {
+
     "babel-core": "6.26.0",
     "babel-eslint": "6.1.2",
     "babel-loader": "7.1.4",
@@ -40,6 +39,7 @@
     "style-loader": "0.13.1",
     "webpack": "4.4.1",
     "webpack-cli": "2.0.13",
+    "webpack-plugin-replace": "^1.1.1",
     "webpack-dev-middleware": "3.1.0",
     "webpack-hot-middleware": "2.21.2"
   }

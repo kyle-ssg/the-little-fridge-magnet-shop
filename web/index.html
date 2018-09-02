@@ -66,19 +66,18 @@
 <!--The hero-->
 <div class="hero">
     <div class="hero-inner">
-        <img class="animated fadeIn slower" src="/static/images/logo.svg"/>
+        <img alt="The Little Fridge Magnet Shop" title="The Little Fridge Magnet Shop" class="animated fadeIn slower" src="/static/images/logo.svg"/>
     </div>
 </div>
 
 
 <!--About us-->
 <section>
-    <h2>A bit about us</h2>
+    <h1>Hand made and painted slate fridge magnets</h1>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-8 col-sm-12">
                 <p>
-                    We produce hand made and painted slate fridge magnets.
                     All products have a varnished finish.
                     Each one is individual and made with a little bit of love.
                 </p>
@@ -104,7 +103,7 @@
 
 <!--Collection 1-->
 <section class="js-collection-1">
-    <h2 class="js-collection-title">Collection 1 - Words Of Wisdom</h2>
+    <span class="js-collection-title collection-heading">Collection 1 - Words Of Wisdom</span>
     <p>
 
     </p>
@@ -129,7 +128,7 @@
 
 <!--Collection 2-->
 <section class="js-collection-2 section__alt">
-    <h2 class="js-collection-title">Collection 2 - In The Middle</h2>
+    <span class="js-collection-title collection-heading">Collection 2 - In The Middle</span>
     <p>
 
     </p>
@@ -154,7 +153,7 @@
 
 <!--Collection 3-->
 <section class="js-collection-3">
-    <h2 class="js-collection-title">Collection 3- The Little Cute Ones</h2>
+    <span class="js-collection-title collection-heading">Collection 3- The Little Cute Ones</span>
     <p>
 
     </p>
@@ -176,16 +175,40 @@
     </div>
 </section>
 
+<!--Bespoke magnets-->
+<section>
+    <h1>Create your own fridge magnet design</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4 push-4 pull-4 text-center">
+                With all of our products being made for order we also offer bespoke designs.
+                <br/>
+                If you have something custom you want us to make simply send a message and we will get back to you.
+                <br/>
+                <div class="be-different">
+            </div>
+        </div>
+    </div>
+</section>
 
 <!--Enquiries-->
 <section>
-    <h2>Enquiries</h2>
+    <span class="collection-heading">Enquiries</span>
     <div class="container-fluid text-center">
         <div class="col-md-8 push-md-2 col-xl-4 push-xl-4 push-sm-0 col-sm-12">
+            <p>
+
+            </p>
             <div class="signup__container">
                 <div class="container__child signup__form">
                     <form method="post"
                           action="https://3fbs97w0nb.execute-api.eu-west-1.amazonaws.com/dev/the-little-fridge-magnet-shop?redirect=thanks.html">
+                        <div class="form-group">
+                            <label for="email">Type of Enquiry</label>
+                            <select class="form-control" id="js-type-of-enquiry">
+
+                            </select>
+                        </div>
                         <div class="form-group">
                             <label for="email">Email</label>
                             <input class="form-control" type="email" name="email" id="email"
@@ -199,6 +222,7 @@
                         <div class="m-t-lg">
                             <input class="btn btn--form" type="submit" value="Register"/>
                         </div>
+                        <input value="General" type="hidden" name="Type" id="js-enquiry-type-value"/>
                     </form>
                 </div>
             </div>
