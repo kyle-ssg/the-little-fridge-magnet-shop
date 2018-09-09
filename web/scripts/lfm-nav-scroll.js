@@ -23,7 +23,10 @@ jQuery(function ($) {
         const query = $(this).attr('data-scroll-to');
         const el = $(query)[0];
         animateScrollTo(el);
-    })
+    });
 
+    $('.js-show-chat').on('click', function () {
+        FB.CustomerChat.show()
+    });
 });
 
