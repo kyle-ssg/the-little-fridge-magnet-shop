@@ -149,6 +149,7 @@ nav.nav__past-hero {
 @media only screen and (max-width: 768px) {
   .col-sm-auto {
     padding: 0 !important;
+    max-width: 100%;
   }
   .hero {
     height: 25vh;
