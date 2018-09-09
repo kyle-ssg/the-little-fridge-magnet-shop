@@ -145,10 +145,14 @@ nav.nav__past-hero {
   }
 }
 
+.col-sm-auto {
+  max-width: 100%;
+}
 
 @media only screen and (max-width: 768px) {
   .col-sm-auto {
     padding: 0 !important;
+    max-width: 100%;
   }
   .hero {
     height: 25vh;
