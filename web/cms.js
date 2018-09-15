@@ -1,14 +1,87 @@
 module.exports = {
     typeOfEnquiries: [
-        "General",
-        "I want to make a purchase",
+        "I would like to ask a question",
+        "I want to make a purchase from a Collection",
+        "I would like to enquire about custom design",
         "Wholesale"
     ],
     collections: [
         {
             mainImage: {
-                uri: "/static/images/c1/4.jpg",
-                title: "5.00",
+                uri: "/static/images/custom/1.jpg",
+                title: "from £4.00",
+                description: "",
+                width: "3cm",
+                height: "8cm",
+            },
+            grid : ()=>{
+                return {
+                    columnWidth: 200,
+                }
+            },
+            images: [
+                {
+                    uri: "/static/images/custom/2.jpg",
+                    title: "Lorem Ipsum",
+                    description: "",
+                    width: "8cm",
+                    height: "8cm",
+                },
+                {
+                    uri: "/static/images/custom/3.jpg",
+                    title: "Lorem Ipsum",
+                    description: "",
+                    width: "8cm",
+                    height: "8cm",
+                },
+                {
+                    uri: "/static/images/custom/4.jpg",
+                    title: "Lorem Ipsum",
+                    description: "",
+                    width: "8cm",
+                    height: "8cm",
+                },
+                {
+                    uri: "/static/images/custom/5.jpg",
+                    title: "Lorem Ipsum",
+                    description: "",
+                    width: "8cm",
+                    height: "8cm",
+                },
+                {
+                    uri: "/static/images/custom/6.jpg",
+                    title: "Lorem Ipsum",
+                    description: "",
+                    width: "8cm",
+                    height: "8cm",
+                },
+                {
+                    uri: "/static/images/custom/7.jpg",
+                    title: "Lorem Ipsum",
+                    description: "",
+                    width: "8cm",
+                    height: "8cm",
+                },
+                {
+                    uri: "/static/images/custom/8.jpg",
+                    title: "Lorem Ipsum",
+                    description: "",
+                    width: "8cm",
+                    height: "8cm",
+                },
+                {
+                    uri: "/static/images/custom/9.jpg",
+                    title: "Lorem Ipsum",
+                    description: "",
+                    width: "8cm",
+                    height: "8cm",
+                },
+            ]
+        },
+        {
+            mainImage: {
+                uri: "/static/images/c1/6.jpg",
+                title: "£5.00",
                 description: "",
                 width: "6cm",
                 height: "8cm",
@@ -19,6 +92,13 @@ module.exports = {
                 }
             },
             images: [
+                {
+                    uri: "/static/images/c1/4.jpg",
+                    title: "Lorem Ipsum",
+                    description: "",
+                    width: "4cm",
+                    height: "4cm",
+                },
                 {
                     uri: "/static/images/c1/2.jpg",
                     title: "Lorem Ipsum",
@@ -47,20 +127,13 @@ module.exports = {
                     width: "4cm",
                     height: "4cm",
                 },
-                {
-                    uri: "/static/images/c1/6.jpg",
-                    title: "Lorem Ipsum",
-                    description: "",
-                    width: "4cm",
-                    height: "4cm",
-                },
             ]
         },
         {
             price: "",
             mainImage: {
                 uri: "/static/images/c2/12.jpg",
-                title: "4.00",
+                title: "£4.00",
                 description: "",
                 width: "5cm",
                 height: "6cm",
@@ -146,7 +219,7 @@ module.exports = {
         {
             mainImage: {
                 uri: "/static/images/c3/1b.jpg",
-                title: "3.00",
+                title: "£3.00",
                 description: "",
                 width: "3cm",
                 height: "4cm",
