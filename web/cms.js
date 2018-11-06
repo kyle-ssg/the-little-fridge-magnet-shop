@@ -8,7 +8,7 @@ module.exports = {
         {
             mainImage: {
                 uri: "/static/images/xmas/4.jpg",
-                title: "Price: £4 each (inc. Postage)",
+                title: "Price: £4 each",
                 description: "Slates in this collection can be supplied either as a hanging decoration or fridge magnet and personalised with your choice of name",
                 width: "",
                 height: "",
@@ -21,13 +21,6 @@ module.exports = {
             images: [
                 {
                     uri: "/static/images/xmas/12.jpg",
-                    title: "Lorem Ipsum",
-                    description: "",
-                    width: "8cm",
-                    height: "8cm",
-                },
-                {
-                    uri: "/static/images/xmas/1.jpg",
                     title: "Lorem Ipsum",
                     description: "",
                     width: "8cm",
@@ -165,9 +158,9 @@ module.exports = {
         },
         {
             mainImage: {
-                uri: "/static/images/c1/6.jpg",
-                title: "Price: £4 each (inc. Postage)",
-                description: "Slates in this collection can be supplied either as a fridge magnet or indoor use ornamental rock. Size: 6cm to 8cm (approx.)",
+                uri: "/static/images/c1/6b.jpg",
+                title: "Price: from £4 each",
+                description: "Slates in this collection can be supplied either as a fridge magnet or indoor use ornamental rock.",
                 width: "6cm",
                 height: "8cm",
             },
@@ -178,35 +171,35 @@ module.exports = {
             },
             images: [
                 {
-                    uri: "/static/images/c1/4.jpg",
+                    uri: "/static/images/c1/4b.jpg",
                     title: "Lorem Ipsum",
                     description: "",
                     width: "4cm",
                     height: "4cm",
                 },
                 {
-                    uri: "/static/images/c1/2.jpg",
+                    uri: "/static/images/c1/2b.jpg",
                     title: "Lorem Ipsum",
                     description: "",
                     width: "4cm",
                     height: "4cm",
                 },
                 {
-                    uri: "/static/images/c1/3.jpg",
+                    uri: "/static/images/c1/3b.jpg",
                     title: "Lorem Ipsum",
                     description: "",
                     width: "4cm",
                     height: "4cm",
                 },
                 {
-                    uri: "/static/images/c1/1.jpg",
+                    uri: "/static/images/c1/1b.jpg",
                     title: "Lorem Ipsum",
                     description: "",
                     width: "4cm",
                     height: "4cm",
                 },
                 {
-                    uri: "/static/images/c1/5.jpg",
+                    uri: "/static/images/c1/5b.jpg",
                     title: "Lorem Ipsum",
                     description: "",
                     width: "4cm",
@@ -216,9 +209,9 @@ module.exports = {
         },
         {
             mainImage: {
-                uri: "/static/images/c2/1b.jpg",
-                title: "Price: £3 each (inc. Postage)",
-                description: "Slates in this collection can be supplied either as a fridge magnet or indoor use ornamental rock. Size: 3cm to 4cm (approx.)",
+                uri: "/static/images/c2/2b.jpg",
+                title: "Price: from £3 each",
+                description: "Slates in this collection can be supplied either as a fridge magnet or indoor use ornamental rock.",
                 width: "3cm",
                 height: "4cm",
             },
@@ -229,42 +222,42 @@ module.exports = {
             },
             images: [
                 {
-                    uri: "/static/images/c2/2.jpg",
+                    uri: "/static/images/c2/1b.jpg",
                     title: "Lorem Ipsum",
                     description: "",
                     width: "8cm",
                     height: "8cm",
                 },
                 {
-                    uri: "/static/images/c2/3.jpg",
+                    uri: "/static/images/c2/3b.jpg",
                     title: "Lorem Ipsum",
                     description: "",
                     width: "8cm",
                     height: "8cm",
                 },
                 {
-                    uri: "/static/images/c2/4.jpg",
+                    uri: "/static/images/c2/4b.jpg",
                     title: "Lorem Ipsum",
                     description: "",
                     width: "8cm",
                     height: "8cm",
                 },
                 {
-                    uri: "/static/images/c2/5.jpg",
+                    uri: "/static/images/c2/5b.jpg",
                     title: "Lorem Ipsum",
                     description: "",
                     width: "8cm",
                     height: "8cm",
                 },
                 {
-                    uri: "/static/images/c2/7.jpg",
+                    uri: "/static/images/c2/7b.jpg",
                     title: "Lorem Ipsum",
                     description: "",
                     width: "8cm",
                     height: "8cm",
                 },
                 {
-                    uri: "/static/images/c2/8.jpg",
+                    uri: "/static/images/c2/8b.jpg",
                     title: "Lorem Ipsum",
                     description: "",
                     width: "8cm",
